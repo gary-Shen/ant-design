@@ -22,7 +22,7 @@ function alertBabelConfig(rules) {
 }
 
 module.exports = {
-  port: 8001,
+  port: 8010,
   source: {
     components: './components',
     docs: './docs',

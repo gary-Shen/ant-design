@@ -297,6 +297,7 @@ export const categories = {
     'gateway',
     'gold',
     'robot',
+    'ward-door',
     'shopping',
   ],
   logo: [
