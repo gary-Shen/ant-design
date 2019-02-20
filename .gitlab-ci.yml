@@ -8,8 +8,6 @@ pages:
 #   - mv .public public
     - git clean -ffdx
     - npm i
-    - npm run dist
-    - npm run site
   artifacts:
     paths:
     - _site
