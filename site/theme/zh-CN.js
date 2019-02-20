@@ -107,5 +107,8 @@ module.exports = {
     'app.docs.components.icon.category.data': '数据类图标',
     'app.docs.components.icon.category.other': '网站通用图标',
     'app.docs.components.icon.category.logo': '品牌和标识',
+    'app.docs.components.icon.category.whiteboard': '智能交互平台（小白板）',
+    'app.docs.components.icon.category.mnis': '智能护理',
+    'app.docs.components.icon.category.pharm': '智能药柜',
   },
 };
