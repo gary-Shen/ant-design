@@ -5,11 +5,8 @@ pages:
   script:
   - npm i
   - npm run site
-  - mkdir .public
-  - cp -r * .public
-  - mv .public public
   artifacts:
     paths:
-    - public
+    - _site
   only:
   - master
