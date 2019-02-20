@@ -3,8 +3,11 @@
 pages:
   stage: deploy
   script:
-  - npm i
-  - npm run site
+#   - mkdir .public
+#   - cp -r * .public
+#   - mv .public public
+    - npm i
+    - npm run site
   artifacts:
     paths:
     - _site
