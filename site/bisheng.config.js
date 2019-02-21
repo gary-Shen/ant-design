@@ -23,7 +23,7 @@ function alertBabelConfig(rules) {
 
 module.exports = {
   port: 8010,
-  root: 'ant-design',
+  root: '/ant-design/',
   source: {
     components: './components',
     docs: './docs',
