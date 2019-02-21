@@ -3,13 +3,9 @@ order: 9
 title: FAQ
 ---
 
-Here are the frequently asked questions about Ant Design and antd that you should look up before you ask in community or create new issue. We also maintain a [FAQ issues label](https://github.com/ant-design/ant-design/issues?q=label%3AFAQ+is%3Aclosed) for common github issues.
+Here are the frequently asked questions about Ant Design and antd that you should look up before you ask in community or create new issue. We also maintain a [FAQ issues label](http://u.ant.design/faq) for common github issues.
 
 ---
-
-### Are you going to provide Vue(etc...) edition?
-
-No, but [the LICENSE of ant-design](https://github.com/ant-design/ant-design/blob/master/LICENSE) is MIT. So, you can try to implement it with ant-design's [style](https://github.com/ant-design/ant-design/tree/master/style), like: [ant-design-vue](https://github.com/vueComponent/ant-design-vue) [vue-beauty](https://github.com/FE-Driver/vue-beauty) or [antue](https://github.com/zzuu666/antue).
 
 ### Are you going to provide Sass/Stylus(etc...) style file?
 
@@ -17,7 +13,8 @@ No, actually, you can convert Less to Sass/Stylus(etc...) with tools (which you 
 
 ### `Select Dropdown DatePicker TimePicker Popover Popconfirm` disappear when I click another popup component inside it, How to resolve it?
 
-Use `<Select getPopupContainer={trigger => trigger.parentNode}>` to render component inside Popover. (Or other getXxxxContainer props)
+This has been fixed since 3.11.x.
+If you're still using old version, you can use `<Select getPopupContainer={trigger => trigger.parentNode}>` to render component inside Popover. (Or other getXxxxContainer props)
 
 https://ant.design/components/select/#Select-props
 

@@ -124,6 +124,11 @@ module.exports = {
     return config;
   },
 
+  devServerConfig: {
+    public: process.env.DEV_HOST || 'localhost',
+    disableHostCheck: !!process.env.DEV_HOST,
+  },
+
   htmlTemplateExtraData: {
     isDev,
     usePreact,
