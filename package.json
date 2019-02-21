@@ -1,9 +1,9 @@
 {
   "name": "antd",
-  "version": "3.12.8",
+  "version": "3.12.9",
   "title": "Ant Design",
-  "description": "An enterprise-class UI design language and React-based implementation",
-  "homepage": "http://ant.design/",
+  "description": "An enterprise-class UI design language and React-based implementation fored by Lachesis",
+  "homepage": "https://github.com/gary-Shen/ant-design",
   "keywords": [
     "ant",
     "design",
@@ -20,7 +20,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "http://10.2.3.111/web_group/packages/ant-design"
+    "url": "https://github.com/gary-Shen/ant-design"
   },
   "bugs": {
     "url": "https://github.com/ant-design/ant-design/issues"
